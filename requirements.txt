@@ -1,0 +1,12 @@
+chromadb
+sentence-transformers
+rank_bm25
+langchain
+langchain-community
+streamlit
+numpy
+pandas
+pypdf
+ollama
+torch
+torchvision
