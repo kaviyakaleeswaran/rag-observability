@@ -412,72 +412,31 @@ The Streamlit application displays these metrics together with the generated ans
 
 
 
-\## Evaluation
+## Evaluation
 
+The project includes a 10-question end-to-end evaluation set covering:
 
-
-The project includes a 10-question evaluation set covering:
-
-
-
-\* ResNet
-
-\* Faster R-CNN
-
-\* U-Net
-
-\* YOLO
-
-\* Vision Transformer
-
-
+- ResNet
+- Faster R-CNN
+- U-Net
+- YOLO
+- Vision Transformer
 
 A question passes when:
 
+1. The expected paper/source appears in the retrieved evidence.
+2. At least one valid citation is produced.
+3. No invalid citations are produced.
 
-
-1\. The expected paper/source is retrieved.
-
-2\. At least one valid citation is produced.
-
-3\. No invalid citations are produced.
-
-
-
-Current evaluation result:
-
-
+Current full-pipeline evaluation result:
 
 ```text
-
 Questions evaluated: 10
-
 Passed:               10
-
 Failed:                0
-
-Pass rate:           100%
-
-Required threshold:   70%
-
-Status:            PASSED
-
-```
-
-
-
-The evaluation configuration is stored in:
-
-
-
-```text
-
-data/evaluation.json
-
-```
-
-
-
+Pass rate:            100%
+Required threshold:    70%
+Status:               PASSED
 \## Installation
 
 
