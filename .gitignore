@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Generated data
+data/chroma_db/
+data/observability.db
+data/embeddings.json
+data/chunks.json
+data/extracted/
+
+# Local evaluation / generated files
+data/evaluation_results/
+*.log
+
+# Downloaded research PDFs
+docs/*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml

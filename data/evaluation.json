@@ -1,0 +1,42 @@
+[
+    {
+        "question": "What problem does ResNet solve?",
+        "expected_source": "resnet"
+    },
+    {
+        "question": "How do residual learning and shortcut connections help train very deep networks?",
+        "expected_source": "resnet"
+    },
+    {
+        "question": "What is the main idea behind the Region Proposal Network in Faster R-CNN?",
+        "expected_source": "faster_rcnn"
+    },
+    {
+        "question": "How does Faster R-CNN improve the efficiency of object detection?",
+        "expected_source": "faster_rcnn"
+    },
+    {
+        "question": "What is the main purpose of the U-Net architecture?",
+        "expected_source": "unet"
+    },
+    {
+        "question": "Why is U-Net useful for biomedical image segmentation?",
+        "expected_source": "unet"
+    },
+    {
+        "question": "What is the main idea behind YOLO object detection?",
+        "expected_source": "yolo"
+    },
+    {
+        "question": "Why can YOLO perform object detection in real time?",
+        "expected_source": "yolo"
+    },
+    {
+        "question": "How does Vision Transformer apply the Transformer architecture to images?",
+        "expected_source": "vit"
+    },
+    {
+        "question": "What is the role of image patches in Vision Transformer?",
+        "expected_source": "vit"
+    }
+]

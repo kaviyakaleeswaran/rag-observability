@@ -1,0 +1,27 @@
+{
+    "resnet": {
+        "title": "Deep Residual Learning for Image Recognition",
+        "topic": "Residual Networks / Image Classification",
+        "url": "https://arxiv.org/abs/1512.03385"
+    },
+    "faster_rcnn": {
+        "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+        "topic": "Object Detection",
+        "url": "https://arxiv.org/abs/1506.01497"
+    },
+    "unet": {
+        "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+        "topic": "Image Segmentation",
+        "url": "https://arxiv.org/abs/1505.04597"
+    },
+    "yolo": {
+        "title": "You Only Look Once: Unified, Real-Time Object Detection",
+        "topic": "Real-Time Object Detection",
+        "url": "https://arxiv.org/abs/1506.02640"
+    },
+    "vit": {
+        "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+        "topic": "Vision Transformers / Image Classification",
+        "url": "https://arxiv.org/abs/2010.11929"
+    }
+}
